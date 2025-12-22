@@ -1,0 +1,12 @@
+# Comparison report files
+FolderComparison_*.txt
+
+# Windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Mac files
+.DS_Store
