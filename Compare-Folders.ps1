@@ -256,14 +256,57 @@ Write-Host ""
 
 # Compare files
 Write-Host "Comparing contents..." -ForegroundColor Yellow
-$filesA = Get-RelativePaths -Items $statsA.Files -BasePath $folderA
-$filesB = Get-RelativePaths -Items $statsB.Files -BasePath $folderB
+
+# Create hashtables for file comparison with size
+$filesAHash = @{}
+foreach ($file in $statsA.Files) {
+    $isMTP = Test-IsMTPPath -Path $folderA
+    $relativePath = if ($isMTP) { $file.FullName } else { $file.FullName.Substring($folderA.Length).TrimStart('\') }
+    $filesAHash[$relativePath] = $file.Length
+}
+
+$filesBHash = @{}
+foreach ($file in $statsB.Files) {
+    $isMTP = Test-IsMTPPath -Path $folderB
+    $relativePath = if ($isMTP) { $file.FullName } else { $file.FullName.Substring($folderB.Length).TrimStart('\') }
+    $filesBHash[$relativePath] = $file.Length
+}
+
+# Get folder lists for comparison
 $foldersA = Get-RelativePaths -Items $statsA.Folders -BasePath $folderA
 $foldersB = Get-RelativePaths -Items $statsB.Folders -BasePath $folderB
 
-# Find differences
-$filesOnlyInA = $filesA | Where-Object { $_ -notin $filesB }
-$filesOnlyInB = $filesB | Where-Object { $_ -notin $filesA }
+# Find differences - files are different if:
+# 1. They exist in only one folder, OR
+# 2. They exist in both but have different sizes
+$filesOnlyInA = @()
+$filesOnlyInB = @()
+$filesDifferentSize = @()
+
+foreach ($filePathA in $filesAHash.Keys) {
+    if ($filesBHash.ContainsKey($filePathA)) {
+        # File exists in both - check size
+        if ($filesAHash[$filePathA] -ne $filesBHash[$filePathA]) {
+            $filesDifferentSize += [PSCustomObject]@{
+                Path = $filePathA
+                SizeA = $filesAHash[$filePathA]
+                SizeB = $filesBHash[$filePathA]
+            }
+        }
+    } else {
+        # File only in A
+        $filesOnlyInA += $filePathA
+    }
+}
+
+foreach ($filePathB in $filesBHash.Keys) {
+    if (-not $filesAHash.ContainsKey($filePathB)) {
+        # File only in B
+        $filesOnlyInB += $filePathB
+    }
+}
+
+# Find folder differences
 $foldersOnlyInA = $foldersA | Where-Object { $_ -notin $foldersB }
 $foldersOnlyInB = $foldersB | Where-Object { $_ -notin $foldersA }
 
@@ -294,6 +337,20 @@ if ($filesOnlyInB.Count -gt 0) {
 }
 Write-Host ""
 
+Write-Host "Files with same name but different size ($($filesDifferentSize.Count)):" -ForegroundColor Magenta
+if ($filesDifferentSize.Count -gt 0) {
+    foreach ($file in $filesDifferentSize | Sort-Object -Property Path) {
+        $sizeAMB = [math]::Round($file.SizeA / 1MB, 2)
+        $sizeBMB = [math]::Round($file.SizeB / 1MB, 2)
+        Write-Host "  ~ $($file.Path)" -ForegroundColor Yellow
+        Write-Host "    Folder A: $sizeAMB MB" -ForegroundColor Gray
+        Write-Host "    Folder B: $sizeBMB MB" -ForegroundColor Gray
+    }
+} else {
+    Write-Host "  (none)" -ForegroundColor Gray
+}
+Write-Host ""
+
 Write-Host "Folders only in Folder A ($($foldersOnlyInA.Count)):" -ForegroundColor Magenta
 if ($foldersOnlyInA.Count -gt 0) {
     foreach ($folder in $foldersOnlyInA | Sort-Object) {
@@ -318,12 +375,13 @@ Write-Host ""
 Write-Host "===============================================" -ForegroundColor Cyan
 Write-Host "SUMMARY" -ForegroundColor Cyan
 Write-Host "===============================================" -ForegroundColor Cyan
-$commonFiles = $filesA.Count - $filesOnlyInA.Count
+$commonFiles = ($filesAHash.Keys | Where-Object { $filesBHash.ContainsKey($_) -and $filesAHash[$_] -eq $filesBHash[$_] }).Count
 $commonFolders = $foldersA.Count - $foldersOnlyInA.Count
-Write-Host "Common files: $commonFiles" -ForegroundColor Green
+Write-Host "Identical files (same name and size): $commonFiles" -ForegroundColor Green
 Write-Host "Common folders: $commonFolders" -ForegroundColor Green
 Write-Host "Files unique to A: $($filesOnlyInA.Count)" -ForegroundColor Yellow
 Write-Host "Files unique to B: $($filesOnlyInB.Count)" -ForegroundColor Yellow
+Write-Host "Files with different sizes: $($filesDifferentSize.Count)" -ForegroundColor Yellow
 Write-Host "Folders unique to A: $($foldersOnlyInA.Count)" -ForegroundColor Yellow
 Write-Host "Folders unique to B: $($foldersOnlyInB.Count)" -ForegroundColor Yellow
 Write-Host ""
@@ -361,6 +419,13 @@ $($filesOnlyInA | Sort-Object | ForEach-Object { "  + $_" } | Out-String)
 Files only in Folder B ($($filesOnlyInB.Count)):
 $($filesOnlyInB | Sort-Object | ForEach-Object { "  + $_" } | Out-String)
 
+Files with same name but different size ($($filesDifferentSize.Count)):
+$($filesDifferentSize | Sort-Object -Property Path | ForEach-Object { 
+    $sizeAMB = [math]::Round($_.SizeA / 1MB, 2)
+    $sizeBMB = [math]::Round($_.SizeB / 1MB, 2)
+    "  ~ $($_.Path)`n    Folder A: $sizeAMB MB`n    Folder B: $sizeBMB MB"
+} | Out-String)
+
 Folders only in Folder A ($($foldersOnlyInA.Count)):
 $($foldersOnlyInA | Sort-Object | ForEach-Object { "  + $_" } | Out-String)
 
@@ -370,10 +435,11 @@ $($foldersOnlyInB | Sort-Object | ForEach-Object { "  + $_" } | Out-String)
 ===============================================
 SUMMARY
 ===============================================
-Common files: $commonFiles
+Identical files (same name and size): $commonFiles
 Common folders: $commonFolders
 Files unique to A: $($filesOnlyInA.Count)
 Files unique to B: $($filesOnlyInB.Count)
+Files with different sizes: $($filesDifferentSize.Count)
 Folders unique to A: $($foldersOnlyInA.Count)
 Folders unique to B: $($foldersOnlyInB.Count)
 "@
