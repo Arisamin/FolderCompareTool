@@ -168,6 +168,26 @@ Write-Host "Duplicate file names: $($duplicates.Count)" -ForegroundColor White
 if ($duplicates.Count -gt 0) {
     $totalDuplicateFiles = ($duplicates | ForEach-Object { $_.Count } | Measure-Object -Sum).Sum
     Write-Host "Total files with duplicate names: $totalDuplicateFiles" -ForegroundColor White
+    
+    # Calculate disk space that would be freed by keeping only one copy of each duplicate
+    $spaceWasted = 0
+    foreach ($duplicate in $duplicates) {
+        $files = $duplicate.Group
+        # Space wasted = (total size of all copies) - (size of one copy)
+        $totalSize = ($files | Measure-Object -Property Length -Sum).Sum
+        $singleCopySize = $files[0].Length
+        $spaceWasted += ($totalSize - $singleCopySize)
+    }
+    
+    $spaceWastedMB = [math]::Round($spaceWasted / 1MB, 2)
+    $spaceWastedGB = [math]::Round($spaceWasted / 1GB, 2)
+    
+    if ($spaceWastedGB -ge 1) {
+        Write-Host "Disk space occupied by duplicates: $spaceWastedGB GB" -ForegroundColor Yellow
+    } else {
+        Write-Host "Disk space occupied by duplicates: $spaceWastedMB MB" -ForegroundColor Yellow
+    }
+    Write-Host "(This is the space you would free by keeping only one copy of each duplicate file)" -ForegroundColor Gray
 }
 Write-Host "Total run duration: $([math]::Round($totalElapsed.TotalSeconds, 1)) seconds" -ForegroundColor White
 Write-Host ""
@@ -202,7 +222,26 @@ Duplicate file names: $($duplicates.Count)
 
     if ($duplicates.Count -gt 0) {
         $totalDuplicateFiles = ($duplicates | ForEach-Object { $_.Count } | Measure-Object -Sum).Sum
-        $reportContent += "Total files with duplicate names: $totalDuplicateFiles`n`n"
+        $reportContent += "Total files with duplicate names: $totalDuplicateFiles`n"
+        
+        # Calculate disk space wasted
+        $spaceWasted = 0
+        foreach ($duplicate in $duplicates) {
+            $files = $duplicate.Group
+            $totalSize = ($files | Measure-Object -Property Length -Sum).Sum
+            $singleCopySize = $files[0].Length
+            $spaceWasted += ($totalSize - $singleCopySize)
+        }
+        
+        $spaceWastedMB = [math]::Round($spaceWasted / 1MB, 2)
+        $spaceWastedGB = [math]::Round($spaceWasted / 1GB, 2)
+        
+        if ($spaceWastedGB -ge 1) {
+            $reportContent += "Disk space occupied by duplicates: $spaceWastedGB GB`n"
+        } else {
+            $reportContent += "Disk space occupied by duplicates: $spaceWastedMB MB`n"
+        }
+        $reportContent += "(This is the space you would free by keeping only one copy of each duplicate file)`n`n"
         
         $reportContent += @"
 ===============================================
@@ -271,6 +310,66 @@ DUPLICATE FILES (Detailed View)
     $reportContent | Out-File -FilePath $reportPath -Encoding UTF8
     Write-Progress -Activity "Saving report" -Completed
     Write-Host "Report saved to: $reportPath" -ForegroundColor Green
+    
+    # Ask if user wants CSV export for automation
+    if ($duplicates.Count -gt 0) {
+        Write-Host ""
+        $exportCsv = Read-Host "Would you like to export a CSV file for automated duplicate handling? (Y/N)"
+        if ($exportCsv -eq 'Y' -or $exportCsv -eq 'y') {
+            $csvPath = $reportPath -replace '\.txt$', '.csv'
+            
+            Write-Host ""
+            Write-Host "CSV Export Options:" -ForegroundColor Cyan
+            Write-Host "1. Export ALL duplicate files (including the first occurrence)" -ForegroundColor White
+            Write-Host "2. Export ONLY extra copies (keep the first occurrence of each duplicate)" -ForegroundColor White
+            $csvOption = Read-Host "Select option (1 or 2)"
+            
+            $csvData = @()
+            $csvCount = 0
+            $totalCsvItems = $duplicates.Count
+            
+            foreach ($duplicate in $duplicates) {
+                $csvCount++
+                if ($csvCount % 10 -eq 0 -or $csvCount -eq $totalCsvItems) {
+                    $percent = [math]::Round(($csvCount / $totalCsvItems) * 100)
+                    Write-Progress -Activity "Generating CSV" -Status "Processing $csvCount of $totalCsvItems duplicates" -PercentComplete $percent
+                }
+                
+                $fileName = $duplicate.Name
+                $files = $duplicate.Group | Sort-Object FullName
+                
+                # Determine which files to export
+                $filesToExport = if ($csvOption -eq '1') {
+                    $files  # All files
+                } else {
+                    $files | Select-Object -Skip 1  # Skip first, export rest
+                }
+                
+                foreach ($file in $filesToExport) {
+                    $csvData += [PSCustomObject]@{
+                        FileName = $fileName
+                        FullPath = $file.FullName
+                        SizeBytes = $file.Length
+                        SizeMB = [math]::Round($file.Length / 1MB, 2)
+                        LastModified = $file.LastWriteTime.ToString("yyyy-MM-dd HH:mm:ss")
+                        DuplicateCount = $duplicate.Count
+                    }
+                }
+            }
+            
+            Write-Progress -Activity "Generating CSV" -Completed
+            Write-Progress -Activity "Saving CSV" -Status "Writing to file..." -PercentComplete 0
+            $csvData | Export-Csv -Path $csvPath -NoTypeInformation -Encoding UTF8
+            Write-Progress -Activity "Saving CSV" -Completed
+            
+            Write-Host "CSV saved to: $csvPath" -ForegroundColor Green
+            Write-Host "Total rows: $($csvData.Count)" -ForegroundColor Gray
+            Write-Host ""
+            Write-Host "You can now pipe this CSV to a deletion script. Example:" -ForegroundColor Yellow
+            Write-Host "  Import-Csv '$csvPath' | ForEach-Object { Remove-Item `$_.FullPath -WhatIf }" -ForegroundColor Cyan
+            Write-Host "(Remove the -WhatIf parameter to actually delete files)" -ForegroundColor Gray
+        }
+    }
 }
 
 Write-Host ""
