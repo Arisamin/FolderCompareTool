@@ -338,6 +338,18 @@ Disk space that would be freed: 401.25 MB
 Operation complete!
 ```
 
+### Extract-TickersFromCsv.ps1
+
+```
+Extract Ticker Column Tool
+==========================
+
+Done.
+Input file: C:\MyData\Git\FolderCompareTool\GRNY 2026-05-09.txt
+Output file: C:\MyData\Git\FolderCompareTool\GRNY 2026-05-09_tickers_only.txt
+Rows exported: 40
+```
+
 ## Notes
 
 ### Compare-Folders.ps1
@@ -401,6 +413,12 @@ Operation complete!
 5. **Restore tabs into a new Chrome window**:
   ```powershell
   .\Save-ChromeWindowTabs.ps1 -RestoreFromFile ".\Chrome-Window-Work-tabs.txt"
+  ```
+
+6. **Extract ticker-only file from CSV-formatted input**:
+  ```powershell
+  .\Extract-TickersFromCsv.ps1
+  # Choose source file in dialog, output is <input_name>_tickers_only<input_ext>
   ```
 
 ## License
