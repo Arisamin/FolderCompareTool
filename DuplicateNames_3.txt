@@ -1,0 +1,445 @@
+﻿DUPLICATE FILE NAMES REPORT
+Generated: 2025-12-23 17:55:32
+Root Folder: C:\MyData\Local Music
+===============================================
+
+SUMMARY
+===============================================
+Total files scanned: 2052
+Unique file names: 1989
+Duplicate file names: 60
+Total files with duplicate names: 123
+
+===============================================
+DUPLICATE FILES (Ordered by Total Size Descending)
+===============================================
+FileName                                                                         Occurrences  TotalSizeMB     TotalSizeGB    
+--------------------------------------------------------------------------------------------------------------------------
+e08009ab.au                                                                      2            2.02            0              
+e0800973.au                                                                      2            2.02            0              
+e0800958.au                                                                      2            2.02            0              
+e0800af3.au                                                                      2            2.02            0              
+e080292c.au                                                                      2            2.02            0              
+e0801dea.au                                                                      2            2.02            0              
+e0801a09.au                                                                      2            2.02            0              
+e08008f0.au                                                                      2            2.02            0              
+e080073e.au                                                                      2            2.02            0              
+e080070f.au                                                                      2            2.02            0              
+e08006ab.au                                                                      2            2.02            0              
+e0800744.au                                                                      2            2.02            0              
+e08007d4.au                                                                      2            2.02            0              
+e08007d0.au                                                                      2            2.02            0              
+e080078b.au                                                                      2            2.02            0              
+Lord Of The Inferiors 006.mp3                                                    2            36.22           0.04           
+Gloatin-Click.mp3                                                                2            10.98           0.01           
+Gloatin-Choir.mp3                                                                2            4.62            0              
+Lyrics.txt                                                                       2            0               0              
+Untitled.png                                                                     3            5.32            0.01           
+Tick.mp3                                                                         2            7.71            0.01           
+Read Me.txt                                                                      2            0               0              
+Gloatin_Rehearsal - bass.mp3                                                     2            13.5            0.01           
+e0802f0e.au                                                                      2            2.02            0              
+e0802dd3.au                                                                      2            1.6             0              
+e0802b53.au                                                                      2            2.02            0              
+e0808274.au                                                                      2            2.02            0              
+G1.2.mp3                                                                         2            3.77            0              
+G1.1.mp3                                                                         2            3.95            0              
+fix padding and enhance drums.mid                                                2            0.04            0              
+e08000da.au                                                                      2            0.8             0              
+e08000c4.au                                                                      2            0.58            0              
+e0800096.au                                                                      2            2.02            0              
+e080011f.au                                                                      2            2.02            0              
+e08001c8.au                                                                      2            2.02            0              
+e0800191.au                                                                      2            2.02            0              
+e0800122.au                                                                      2            2.02            0              
+e080008f.au                                                                      2            2.02            0              
+drums.mid                                                                        2            0.04            0              
+Bass.mp3                                                                         2            4.41            0              
+58.mp3                                                                           2            6.39            0.01           
+drums.mp3                                                                        4            30.16           0.03           
+e0800020.au                                                                      2            2.02            0              
+e080000a.au                                                                      2            2.02            0              
+drums_bass.mid                                                                   2            0.07            0              
+e0800590.au                                                                      2            2.02            0              
+e080042d.au                                                                      2            2.02            0              
+e0800415.au                                                                      2            2.02            0              
+e080059a.au                                                                      2            2.02            0              
+e0800659.au                                                                      2            2.02            0              
+e0800658.au                                                                      2            2.02            0              
+e080063b.au                                                                      2            2.02            0              
+e08003e2.au                                                                      2            2.02            0              
+e080027b.au                                                                      2            2.02            0              
+e0800211.au                                                                      2            2.02            0              
+e08001e9.au                                                                      2            2.02            0              
+e080027e.au                                                                      2            2.02            0              
+e0800329.au                                                                      2            2.02            0              
+e0800324.au                                                                      2            2.02            0              
+e08002b2.au                                                                      2            2.02            0              
+
+===============================================
+DUPLICATE FILES (Detailed View)
+===============================================
+File Name: 58.mp3
+  Occurrences: 2
+  Locations:
+    - LOTI\הקלטות 11-2-2022\58.mp3 (3.02 MB)
+    - To Die Is To March\exported\58.mp3 (3.37 MB)
+
+File Name: Bass.mp3
+  Occurrences: 2
+  Locations:
+    - Rehearsal backing tracks\Air Of Fire\Bass.mp3 (970.33 KB)
+    - Rehearsal backing tracks\Speed Down Collision Course\Bass.mp3 (3.47 MB)
+
+File Name: drums.mid
+  Occurrences: 2
+  Locations:
+    - Gloatin'\drums.mid (27.75 KB)
+    - The Pesticide Patrol\Reconstructed\Midi\drums.mid (14.74 KB)
+
+File Name: drums.mp3
+  Occurrences: 4
+  Locations:
+    - Gloatin'\drums.mp3 (13.45 MB)
+    - Rehearsal backing tracks\Air Of Fire\Drums.mp3 (970.33 KB)
+    - Rehearsal backing tracks\Speed Down Collision Course\Drums.mp3 (3.47 MB)
+    - The Pesticide Patrol\Reconstructed\drums.mp3 (12.3 MB)
+
+File Name: drums_bass.mid
+  Occurrences: 2
+  Locations:
+    - Gloatin'\drums_bass.mid (40.24 KB)
+    - LOTI\drums_bass.mid (28.49 KB)
+
+File Name: e080000a.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e080000a.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e080000a.au (1.01 MB)
+
+File Name: e0800020.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e0800020.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e0800020.au (1.01 MB)
+
+File Name: e080008f.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e080008f.au (1.01 MB)
+    - To Die Is To March\to die is to march10_data\e08\d00\e080008f.au (1.01 MB)
+
+File Name: e0800096.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e0800096.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e0800096.au (1.01 MB)
+
+File Name: e08000c4.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e08000c4.au (296.57 KB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e08000c4.au (296.57 KB)
+
+File Name: e08000da.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e08000da.au (409.82 KB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e08000da.au (409.82 KB)
+
+File Name: e080011f.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e080011f.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e080011f.au (1.01 MB)
+
+File Name: e0800122.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e0800122.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e0800122.au (1.01 MB)
+
+File Name: e0800191.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e0800191.au (1.01 MB)
+    - To Die Is To March\to die is to march10_data\e08\d00\e0800191.au (1.01 MB)
+
+File Name: e08001c8.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e08001c8.au (1.01 MB)
+    - To Die Is To March\to die is to march10_data\e08\d00\e08001c8.au (1.01 MB)
+
+File Name: e08001e9.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e08001e9.au (1.01 MB)
+    - To Die Is To March\to die is to march10_data\e08\d00\e08001e9.au (1.01 MB)
+
+File Name: e0800211.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e0800211.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e0800211.au (1.01 MB)
+
+File Name: e080027b.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e080027b.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e080027b.au (1.01 MB)
+
+File Name: e080027e.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e080027e.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e080027e.au (1.01 MB)
+
+File Name: e08002b2.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e08002b2.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e08002b2.au (1.01 MB)
+
+File Name: e0800324.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e0800324.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e0800324.au (1.01 MB)
+
+File Name: e0800329.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e0800329.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e0800329.au (1.01 MB)
+
+File Name: e08003e2.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e08003e2.au (1.01 MB)
+    - To Die Is To March\to die is to march10_data\e08\d00\e08003e2.au (1.01 MB)
+
+File Name: e0800415.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e0800415.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e0800415.au (1.01 MB)
+
+File Name: e080042d.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e080042d.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e080042d.au (1.01 MB)
+
+File Name: e0800590.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e0800590.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e0800590.au (1.01 MB)
+
+File Name: e080059a.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e080059a.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e080059a.au (1.01 MB)
+
+File Name: e080063b.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e080063b.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e080063b.au (1.01 MB)
+
+File Name: e0800658.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e0800658.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e0800658.au (1.01 MB)
+
+File Name: e0800659.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e0800659.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e0800659.au (1.01 MB)
+
+File Name: e08006ab.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e08006ab.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e08006ab.au (1.01 MB)
+
+File Name: e080070f.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e080070f.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e080070f.au (1.01 MB)
+
+File Name: e080073e.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e080073e.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e080073e.au (1.01 MB)
+
+File Name: e0800744.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e0800744.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e0800744.au (1.01 MB)
+
+File Name: e080078b.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e080078b.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e080078b.au (1.01 MB)
+
+File Name: e08007d0.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e08007d0.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e08007d0.au (1.01 MB)
+
+File Name: e08007d4.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e08007d4.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e08007d4.au (1.01 MB)
+
+File Name: e08008f0.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e08008f0.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e08008f0.au (1.01 MB)
+
+File Name: e0800958.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e0800958.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e0800958.au (1.01 MB)
+
+File Name: e0800973.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e0800973.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e0800973.au (1.01 MB)
+
+File Name: e08009ab.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e08009ab.au (1.01 MB)
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\7_data\e08\d00\e08009ab.au (1.01 MB)
+
+File Name: e0800af3.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d00\e0800af3.au (1.01 MB)
+    - To Die Is To March\to die is to march10_data\e08\d00\e0800af3.au (1.01 MB)
+
+File Name: e0801a09.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d01\e0801a09.au (1.01 MB)
+    - To Die Is To March\to die is to march10_data\e08\d01\e0801a09.au (1.01 MB)
+
+File Name: e0801dea.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d01\e0801dea.au (1.01 MB)
+    - To Die Is To March\to die is to march10_data\e08\d01\e0801dea.au (1.01 MB)
+
+File Name: e080292c.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d02\e080292c.au (1.01 MB)
+    - To Die Is To March\to die is to march10_data\e08\d02\e080292c.au (1.01 MB)
+
+File Name: e0802b53.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d02\e0802b53.au (1.01 MB)
+    - To Die Is To March\to die is to march10_data\e08\d02\e0802b53.au (1.01 MB)
+
+File Name: e0802dd3.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d02\e0802dd3.au (599.83 KB)
+    - To Die Is To March\to die is to march10_data\e08\d02\e0802dd3.au (1.01 MB)
+
+File Name: e0802f0e.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d02\e0802f0e.au (1.01 MB)
+    - To Die Is To March\to die is to march10_data\e08\d02\e0802f0e.au (1.01 MB)
+
+File Name: e0808274.au
+  Occurrences: 2
+  Locations:
+    - BloodFreezing\11 - Blood Freezing\Blood Freezing\6b_data\e08\d08\e0808274.au (1.01 MB)
+    - To Die Is To March\to die is to march10_data\e08\d08\e0808274.au (1.01 MB)
+
+File Name: fix padding and enhance drums.mid
+  Occurrences: 2
+  Locations:
+    - LOTI\24-9-2022 midis\fix padding and enhance drums.mid (20.24 KB)
+    - LOTI\fix padding and enhance drums.mid (20.24 KB)
+
+File Name: G1.1.mp3
+  Occurrences: 2
+  Locations:
+    - Rehearsal backing tracks\Air Of Fire\G1.1.mp3 (521.86 KB)
+    - Rehearsal backing tracks\Speed Down Collision Course\G1.1.mp3 (3.44 MB)
+
+File Name: G1.2.mp3
+  Occurrences: 2
+  Locations:
+    - Rehearsal backing tracks\Air Of Fire\G1.2.mp3 (949.92 KB)
+    - Rehearsal backing tracks\Speed Down Collision Course\G1.2.mp3 (2.84 MB)
+
+File Name: Gloatin_Rehearsal - bass.mp3
+  Occurrences: 2
+  Locations:
+    - Rehearsal backing tracks\Gloatin\Exports\Gloatin_Rehearsal - bass.mp3 (6.75 MB)
+    - Rehearsal backing tracks\Gloatin\Gloatin_Rehearsal - bass.mp3 (6.75 MB)
+
+File Name: Gloatin-Choir.mp3
+  Occurrences: 2
+  Locations:
+    - Gloatin'\exports\Gloatin-Choir.mp3 (2.33 MB)
+    - Rehearsal backing tracks\Gloatin\Exports\Gloatin-Choir.mp3 (2.29 MB)
+
+File Name: Gloatin-Click.mp3
+  Occurrences: 2
+  Locations:
+    - Gloatin'\exports\Gloatin-Click.mp3 (4.11 MB)
+    - Rehearsal backing tracks\Gloatin\Exports\Gloatin-Click.mp3 (6.87 MB)
+
+File Name: Lord Of The Inferiors 006.mp3
+  Occurrences: 2
+  Locations:
+    - LOTI\25-3-2022\Lord Of The Inferiors 006.mp3 (19.94 MB)
+    - LOTI\25-3-2022\with solo\Lord Of The Inferiors 006.mp3 (16.28 MB)
+
+File Name: Lyrics.txt
+  Occurrences: 2
+  Locations:
+    - LOTI\Lyrics.txt (1.2 KB)
+    - Soul Possessor\Lyrics.txt (0.53 KB)
+
+File Name: Read Me.txt
+  Occurrences: 2
+  Locations:
+    - Guitarist Required ad\misc\READ ME.txt (0.18 KB)
+    - Guitarist Required ad\Read Me.txt (0.37 KB)
+
+File Name: Tick.mp3
+  Occurrences: 2
+  Locations:
+    - Rehearsal backing tracks\Air Of Fire\Tick.mp3 (970.33 KB)
+    - Rehearsal backing tracks\Gloatin\Tick.mp3 (6.76 MB)
+
+File Name: Untitled.png
+  Occurrences: 3
+  Locations:
+    - Guitarist Required ad\Untitled.png (2.27 MB)
+    - SmogbreatH Facebook Page\Untitled.png (24.33 KB)
+    - Untitled.png (3.02 MB)
+
+

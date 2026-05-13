@@ -1,0 +1,575 @@
+﻿DUPLICATE FILE NAMES REPORT
+Generated: 2025-12-22 19:30:32
+Root Folder: C:\MyData\מצלמה - אמא
+===============================================
+
+SUMMARY
+===============================================
+Total files scanned: 3499
+Unique file names: 3405
+Duplicate file names: 93
+Total files with duplicate names: 187
+
+===============================================
+DUPLICATE FILES
+===============================================
+File Name: Camera_2022-05-25_23_24.mp4
+  Occurrences: 3
+  Locations:
+    - 20-5-2022\Camera_2022-05-25_23_24.mp4 (1.74 MB)
+    - 23-5-2022\Camera_2022-05-25_23_24.mp4 (1.74 MB)
+    - 29-5-2022\Camera_2022-05-25_23_24.mp4 (1.74 MB)
+
+File Name: PR0044902CVEL_20221108090220.mp4
+  Occurrences: 2
+  Locations:
+    - 08-11-2022 ביקור קצר בבוקר\PR0044902CVEL_20221108090220.mp4 (119.02 MB)
+    - 8-11-2022 - ביקור בבוקר\PR0044902CVEL_20221108090220.mp4 (118.82 MB)
+
+File Name: PR0044902CVEL_20221108091722.mp4
+  Occurrences: 2
+  Locations:
+    - 08-11-2022 ביקור קצר בבוקר\PR0044902CVEL_20221108091722.mp4 (124.32 MB)
+    - 8-11-2022 - ביקור בבוקר\PR0044902CVEL_20221108091722.mp4 (124.33 MB)
+
+File Name: PR0044902CVEL_20221122082753.mp4
+  Occurrences: 2
+  Locations:
+    - 22-11-2022 - נדיה יצאה לשעתיים בבוקר\2\PR0044902CVEL_20221122082753.mp4 (4.96 MB)
+    - 22-11-2022 - נדיה יצאה לשעתיים בבוקר\PR0044902CVEL_20221122082753.mp4 (4.96 MB)
+
+File Name: PR0044902CVEL_20221122083852.mp4
+  Occurrences: 2
+  Locations:
+    - 22-11-2022 - נדיה יצאה לשעתיים בבוקר\2\PR0044902CVEL_20221122083852.mp4 (8.96 MB)
+    - 22-11-2022 - נדיה יצאה לשעתיים בבוקר\PR0044902CVEL_20221122083852.mp4 (8.96 MB)
+
+File Name: PR0044902CVEL_20221122083957.mp4
+  Occurrences: 2
+  Locations:
+    - 22-11-2022 - נדיה יצאה לשעתיים בבוקר\2\PR0044902CVEL_20221122083957.mp4 (6.54 MB)
+    - 22-11-2022 - נדיה יצאה לשעתיים בבוקר\PR0044902CVEL_20221122083957.mp4 (6.54 MB)
+
+File Name: PR0044902CVEL_20230116121324.mp4
+  Occurrences: 2
+  Locations:
+    - 16-1-2023 אצל אמא\PR0044902CVEL_20230116121324.mp4 (21.63 MB)
+    - 19-1-2023\PR0044902CVEL_20230116121324.mp4 (21.63 MB)
+
+File Name: PR0044902CVEL_20230514194257.mp4
+  Occurrences: 2
+  Locations:
+    - 14-5-2023 פיזיו\PR0044902CVEL_20230514194257.mp4 (22.51 MB)
+    - 21-5-2023 פיזיו\PR0044902CVEL_20230514194257.mp4 (22.51 MB)
+
+File Name: PR0044902CVEL_20230517150224.mp4
+  Occurrences: 2
+  Locations:
+    - 14-5-2023 פיזיו\PR0044902CVEL_20230517150224.mp4 (9.42 MB)
+    - PR0044902CVEL_20230517150224.mp4 (9.42 MB)
+
+File Name: VIDEO_20221110_125158618.mp4
+  Occurrences: 2
+  Locations:
+    - 03-06-2023 - ממוש שורפת את הקומקום\VIDEO_20221110_125158618.mp4 (2.97 MB)
+    - 10-11-2022 תקרית חלב\VIDEO_20221110_125158618.mp4 (2.97 MB)
+
+File Name: VIDEO_20221110_125320054.mp4
+  Occurrences: 2
+  Locations:
+    - 03-06-2023 - ממוש שורפת את הקומקום\VIDEO_20221110_125320054.mp4 (3.61 MB)
+    - 10-11-2022 תקרית חלב\VIDEO_20221110_125320054.mp4 (3.61 MB)
+
+File Name: VIDEO_20221110_125423791.mp4
+  Occurrences: 2
+  Locations:
+    - 03-06-2023 - ממוש שורפת את הקומקום\VIDEO_20221110_125423791.mp4 (3.45 MB)
+    - 10-11-2022 תקרית חלב\VIDEO_20221110_125423791.mp4 (3.45 MB)
+
+File Name: VIDEO_20221110_125517293.mp4
+  Occurrences: 2
+  Locations:
+    - 03-06-2023 - ממוש שורפת את הקומקום\VIDEO_20221110_125517293.mp4 (3.44 MB)
+    - 10-11-2022 תקרית חלב\VIDEO_20221110_125517293.mp4 (3.44 MB)
+
+File Name: VIDEO_20221110_125638776.mp4
+  Occurrences: 2
+  Locations:
+    - 03-06-2023 - ממוש שורפת את הקומקום\VIDEO_20221110_125638776.mp4 (3.19 MB)
+    - 10-11-2022 תקרית חלב\VIDEO_20221110_125638776.mp4 (3.19 MB)
+
+File Name: VIDEO_20221110_130303741.mp4
+  Occurrences: 2
+  Locations:
+    - 03-06-2023 - ממוש שורפת את הקומקום\VIDEO_20221110_130303741.mp4 (3.17 MB)
+    - 10-11-2022 תקרית חלב\VIDEO_20221110_130303741.mp4 (3.17 MB)
+
+File Name: VIDEO_20221110_130415674.mp4
+  Occurrences: 2
+  Locations:
+    - 03-06-2023 - ממוש שורפת את הקומקום\VIDEO_20221110_130415674.mp4 (3.3 MB)
+    - 10-11-2022 תקרית חלב\VIDEO_20221110_130415674.mp4 (3.3 MB)
+
+File Name: VIDEO_20240103_174225584.mp4
+  Occurrences: 2
+  Locations:
+    - 2024-01-16 פגישה עם נועה\VIDEO_20240103_174225584.mp4 (2.36 MB)
+    - 2024-3-1 - אמא עצבנית\VIDEO_20240103_174225584.mp4 (2.36 MB)
+
+File Name: VIDEO_20240110_013412780.mp4
+  Occurrences: 2
+  Locations:
+    - 2024-01-16 פגישה עם נועה\VIDEO_20240110_013412780.mp4 (3.23 MB)
+    - 2024-6-1 אצל ממוש המתוקה\VIDEO_20240110_013412780.mp4 (3.23 MB)
+
+File Name: VIDEO_20240110_013421200.mp4
+  Occurrences: 2
+  Locations:
+    - 2024-01-16 פגישה עם נועה\VIDEO_20240110_013421200.mp4 (2.99 MB)
+    - 2024-6-1 אצל ממוש המתוקה\VIDEO_20240110_013421200.mp4 (2.99 MB)
+
+File Name: VIDEO_20240110_013429421.mp4
+  Occurrences: 2
+  Locations:
+    - 2024-01-16 פגישה עם נועה\VIDEO_20240110_013429421.mp4 (3 MB)
+    - 2024-6-1 אצל ממוש המתוקה\VIDEO_20240110_013429421.mp4 (3 MB)
+
+File Name: VIDEO_20240110_013437408.mp4
+  Occurrences: 2
+  Locations:
+    - 2024-01-16 פגישה עם נועה\VIDEO_20240110_013437408.mp4 (3.04 MB)
+    - 2024-6-1 אצל ממוש המתוקה\VIDEO_20240110_013437408.mp4 (3.04 MB)
+
+File Name: VIDEO_20240110_013445237.mp4
+  Occurrences: 2
+  Locations:
+    - 2024-01-16 פגישה עם נועה\VIDEO_20240110_013445237.mp4 (2.98 MB)
+    - 2024-6-1 אצל ממוש המתוקה\VIDEO_20240110_013445237.mp4 (2.98 MB)
+
+File Name: VIDEO_20240110_013453116.mp4
+  Occurrences: 2
+  Locations:
+    - 2024-01-16 פגישה עם נועה\VIDEO_20240110_013453116.mp4 (3.04 MB)
+    - 2024-6-1 אצל ממוש המתוקה\VIDEO_20240110_013453116.mp4 (3.04 MB)
+
+File Name: VIDEO_20240110_013500992.mp4
+  Occurrences: 2
+  Locations:
+    - 2024-01-16 פגישה עם נועה\VIDEO_20240110_013500992.mp4 (2.88 MB)
+    - 2024-6-1 אצל ממוש המתוקה\VIDEO_20240110_013500992.mp4 (2.88 MB)
+
+File Name: VIDEO_20240110_013509716.mp4
+  Occurrences: 2
+  Locations:
+    - 2024-01-16 פגישה עם נועה\VIDEO_20240110_013509716.mp4 (2.52 MB)
+    - 2024-6-1 אצל ממוש המתוקה\VIDEO_20240110_013509716.mp4 (2.52 MB)
+
+File Name: VIDEO_20240110_013517681.mp4
+  Occurrences: 2
+  Locations:
+    - 2024-01-16 פגישה עם נועה\VIDEO_20240110_013517681.mp4 (3.05 MB)
+    - 2024-6-1 אצל ממוש המתוקה\VIDEO_20240110_013517681.mp4 (3.05 MB)
+
+File Name: VIDEO_20240508_200251212.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240508_200251212.mp4 (2.84 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240508_200251212.mp4 (2.84 MB)
+
+File Name: VIDEO_20240508_202719603.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240508_202719603.mp4 (2.44 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240508_202719603.mp4 (2.44 MB)
+
+File Name: VIDEO_20240508_202749799.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240508_202749799.mp4 (3.12 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240508_202749799.mp4 (3.12 MB)
+
+File Name: VIDEO_20240509_150012299.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150012299.mp4 (2.45 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150012299.mp4 (2.45 MB)
+
+File Name: VIDEO_20240509_150029303.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150029303.mp4 (2.44 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150029303.mp4 (2.44 MB)
+
+File Name: VIDEO_20240509_150055832.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150055832.mp4 (2.41 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150055832.mp4 (2.41 MB)
+
+File Name: VIDEO_20240509_150112583.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150112583.mp4 (2.43 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150112583.mp4 (2.43 MB)
+
+File Name: VIDEO_20240509_150129850.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150129850.mp4 (2.51 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150129850.mp4 (2.51 MB)
+
+File Name: VIDEO_20240509_150149548.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150149548.mp4 (2.96 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150149548.mp4 (2.96 MB)
+
+File Name: VIDEO_20240509_150208643.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150208643.mp4 (2.85 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150208643.mp4 (2.85 MB)
+
+File Name: VIDEO_20240509_150238523.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150238523.mp4 (2.48 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150238523.mp4 (2.48 MB)
+
+File Name: VIDEO_20240509_150255282.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150255282.mp4 (2.42 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150255282.mp4 (2.42 MB)
+
+File Name: VIDEO_20240509_150313660.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150313660.mp4 (2.41 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150313660.mp4 (2.41 MB)
+
+File Name: VIDEO_20240509_150330428.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150330428.mp4 (2.37 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150330428.mp4 (2.37 MB)
+
+File Name: VIDEO_20240509_150347095.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150347095.mp4 (2.38 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150347095.mp4 (2.38 MB)
+
+File Name: VIDEO_20240509_150416575.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150416575.mp4 (2.36 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150416575.mp4 (2.36 MB)
+
+File Name: VIDEO_20240509_150432911.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150432911.mp4 (2.35 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150432911.mp4 (2.35 MB)
+
+File Name: VIDEO_20240509_150449278.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150449278.mp4 (2.32 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150449278.mp4 (2.32 MB)
+
+File Name: VIDEO_20240509_150505693.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150505693.mp4 (2.35 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150505693.mp4 (2.35 MB)
+
+File Name: VIDEO_20240509_150522043.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150522043.mp4 (2.32 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150522043.mp4 (2.32 MB)
+
+File Name: VIDEO_20240509_150551892.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150551892.mp4 (2.32 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150551892.mp4 (2.32 MB)
+
+File Name: VIDEO_20240509_150608717.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150608717.mp4 (2.28 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150608717.mp4 (2.28 MB)
+
+File Name: VIDEO_20240509_150624849.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150624849.mp4 (2.3 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150624849.mp4 (2.3 MB)
+
+File Name: VIDEO_20240509_150640942.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150640942.mp4 (2.33 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150640942.mp4 (2.33 MB)
+
+File Name: VIDEO_20240509_150656979.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150656979.mp4 (2.31 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150656979.mp4 (2.31 MB)
+
+File Name: VIDEO_20240509_150728331.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150728331.mp4 (2.23 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150728331.mp4 (2.23 MB)
+
+File Name: VIDEO_20240509_150744437.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150744437.mp4 (2.27 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150744437.mp4 (2.27 MB)
+
+File Name: VIDEO_20240509_150800599.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150800599.mp4 (2.31 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150800599.mp4 (2.31 MB)
+
+File Name: VIDEO_20240509_150816887.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150816887.mp4 (2.33 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150816887.mp4 (2.33 MB)
+
+File Name: VIDEO_20240509_150837316.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150837316.mp4 (3.15 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150837316.mp4 (3.15 MB)
+
+File Name: VIDEO_20240509_150905678.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150905678.mp4 (2.77 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150905678.mp4 (2.77 MB)
+
+File Name: VIDEO_20240509_150924178.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150924178.mp4 (2.76 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150924178.mp4 (2.76 MB)
+
+File Name: VIDEO_20240509_150944718.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_150944718.mp4 (3.16 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_150944718.mp4 (3.16 MB)
+
+File Name: VIDEO_20240509_151005415.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151005415.mp4 (3.16 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151005415.mp4 (3.16 MB)
+
+File Name: VIDEO_20240509_151043002.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151043002.mp4 (2.65 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151043002.mp4 (2.65 MB)
+
+File Name: VIDEO_20240509_151100349.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151100349.mp4 (2.57 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151100349.mp4 (2.57 MB)
+
+File Name: VIDEO_20240509_151131209.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151131209.mp4 (2.57 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151131209.mp4 (2.57 MB)
+
+File Name: VIDEO_20240509_151151209.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151151209.mp4 (2.58 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151151209.mp4 (2.58 MB)
+
+File Name: VIDEO_20240509_151222306.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151222306.mp4 (2.51 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151222306.mp4 (2.51 MB)
+
+File Name: VIDEO_20240509_151239815.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151239815.mp4 (2.51 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151239815.mp4 (2.51 MB)
+
+File Name: VIDEO_20240509_151257309.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151257309.mp4 (2.51 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151257309.mp4 (2.51 MB)
+
+File Name: VIDEO_20240509_151314833.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151314833.mp4 (2.51 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151314833.mp4 (2.51 MB)
+
+File Name: VIDEO_20240509_151332127.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151332127.mp4 (2.49 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151332127.mp4 (2.49 MB)
+
+File Name: VIDEO_20240509_151404465.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151404465.mp4 (2.49 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151404465.mp4 (2.49 MB)
+
+File Name: VIDEO_20240509_151421759.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151421759.mp4 (2.49 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151421759.mp4 (2.49 MB)
+
+File Name: VIDEO_20240509_151439038.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151439038.mp4 (2.47 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151439038.mp4 (2.47 MB)
+
+File Name: VIDEO_20240509_151459137.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151459137.mp4 (3.08 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151459137.mp4 (3.08 MB)
+
+File Name: VIDEO_20240509_151518997.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151518997.mp4 (2.92 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151518997.mp4 (2.92 MB)
+
+File Name: VIDEO_20240509_151550403.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151550403.mp4 (2.22 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151550403.mp4 (2.22 MB)
+
+File Name: VIDEO_20240509_151609195.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151609195.mp4 (2.79 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151609195.mp4 (2.79 MB)
+
+File Name: VIDEO_20240509_151938921.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_151938921.mp4 (2.65 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_151938921.mp4 (2.65 MB)
+
+File Name: VIDEO_20240509_152012630.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_152012630.mp4 (2.64 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_152012630.mp4 (2.64 MB)
+
+File Name: VIDEO_20240509_152030806.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_152030806.mp4 (2.56 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_152030806.mp4 (2.56 MB)
+
+File Name: VIDEO_20240509_152106903.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_152106903.mp4 (2.58 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_152106903.mp4 (2.58 MB)
+
+File Name: VIDEO_20240509_152124269.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_152124269.mp4 (2.31 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_152124269.mp4 (2.31 MB)
+
+File Name: VIDEO_20240509_152158037.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_152158037.mp4 (2.82 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_152158037.mp4 (2.82 MB)
+
+File Name: VIDEO_20240509_152219015.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_152219015.mp4 (3.05 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_152219015.mp4 (3.05 MB)
+
+File Name: VIDEO_20240509_152251016.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_152251016.mp4 (2.51 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_152251016.mp4 (2.51 MB)
+
+File Name: VIDEO_20240509_152308874.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_152308874.mp4 (2.53 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_152308874.mp4 (2.53 MB)
+
+File Name: VIDEO_20240509_152327002.mp4
+  Occurrences: 2
+  Locations:
+    - 2024 5 May 1\VIDEO_20240509_152327002.mp4 (2.56 MB)
+    - 2024-05-02 פאזל עם אמא\VIDEO_20240509_152327002.mp4 (2.56 MB)
+
+File Name: VIDEO_20250310_220041467.mp4
+  Occurrences: 2
+  Locations:
+    - 2025\VIDEO_20250310_220041467.mp4 (11.96 MB)
+    - VIDEO_20250310_220041467.mp4 (11.96 MB)
+
+File Name: VIDEO_20250310_220050554.mp4
+  Occurrences: 2
+  Locations:
+    - 2025\VIDEO_20250310_220050554.mp4 (11.98 MB)
+    - VIDEO_20250310_220050554.mp4 (11.98 MB)
+
+File Name: VIDEO_20250310_220843665.mp4
+  Occurrences: 2
+  Locations:
+    - Adi\VIDEO_20250310_220843665.mp4 (11.96 MB)
+    - VIDEO_20250310_220843665.mp4 (11.96 MB)
+
+File Name: VIDEO_20250310_220851775.mp4
+  Occurrences: 2
+  Locations:
+    - Adi\VIDEO_20250310_220851775.mp4 (11.97 MB)
+    - VIDEO_20250310_220851775.mp4 (11.97 MB)
+
+File Name: VIDEO_20250310_220859628.mp4
+  Occurrences: 2
+  Locations:
+    - Adi\VIDEO_20250310_220859628.mp4 (11.94 MB)
+    - VIDEO_20250310_220859628.mp4 (11.94 MB)
+
+File Name: VIDEO_20250310_220907755.mp4
+  Occurrences: 2
+  Locations:
+    - Adi\VIDEO_20250310_220907755.mp4 (11.97 MB)
+    - VIDEO_20250310_220907755.mp4 (11.97 MB)
+
+File Name: VIDEO_20250310_220915387.mp4
+  Occurrences: 2
+  Locations:
+    - Adi\VIDEO_20250310_220915387.mp4 (11.95 MB)
+    - VIDEO_20250310_220915387.mp4 (11.95 MB)
+
+
